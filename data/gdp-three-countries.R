@@ -35,3 +35,6 @@ loop_thru_continents <- function() {
 }
 
 loop_thru_continents()
+
+hist(dat_sunday2$lifeExp)
+hist(dat_sunday2$lifeExp, breaks = 100, main="Global Life Expectancy", xlab = "Life Expectancy")
